@@ -1,0 +1,85 @@
+body
+{
+	margin:0 auto;
+}
+.header
+{
+	width:88%;
+	height:90px;
+	background-color: #666;
+	padding-left:12%;
+	padding-top:30px;
+	color: white;
+}
+.sub_heading
+{
+	width:88%;
+	margin-left:12%;
+}
+.menu
+{
+	width:88%;
+	padding-left:12%;
+}
+.register
+{
+	width:88%;
+	margin-left:12%;
+}
+.erros_color
+{
+	color:red;
+}
+ a
+{
+	text-decoration: none;
+}
+.hbutton
+{
+	width: 185px;
+	height: 40px;
+	background-color:lightgreen;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 400;
+}
+.confirmation
+{
+	width:88%;
+	margin-left:12%;
+}
+.create_btn 
+{
+	width:100%;
+	height:40px;
+	border-radius:5px;
+}
+.table
+{
+	width:100%;
+}
+
+table.imagetable {
+	font-family: verdana,arial,sans-serif;
+	font-size:15px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+}
+table.imagetable th {
+	border-width: 1px;
+	padding:30px;
+	border-style: solid;
+	border-color: #999999;
+}
+table.imagetable td {
+	border-width: 1px;
+	padding:30px;
+	border-style: solid;
+	border-color: #999999;
+}
+#result
+{
+	padding-left:%;
+}

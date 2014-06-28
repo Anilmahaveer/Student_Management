@@ -1,0 +1,30 @@
+Student Table:
+
+CREATE TABLE IF NOT EXISTS `student` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) NOT NULL,
+  `phone_number` int(11) NOT NULL,
+  `city` varchar(100) NOT NULL,
+  `branch` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) 
+
+
+student_group Table:
+
+CREATE TABLE IF NOT EXISTS `student_group` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `group_name` varchar(100) NOT NULL,
+  `group_desc` varchar(200) NOT NULL,
+  PRIMARY KEY (`id`)
+)
+
+
+student group Relation Table:
+
+CREATE TABLE IF NOT EXISTS `std_grp_link` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `group_id` int(11) NOT NULL,
+  `student_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) 
